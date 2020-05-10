@@ -1,0 +1,20 @@
+.outSide {
+    background-color: tan;
+    background-image: 
+        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.inSide {
+    width: 80%;
+    max-width: 960px;
+    margin: 10% auto;
+
+    background-color: ivory;
+    border-radius: 10px;
+    opacity: .8;
+    padding: 10%;
+}
