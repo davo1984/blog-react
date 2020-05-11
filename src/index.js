@@ -5,6 +5,9 @@ import './components/styles.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import $ from 'jquery';
+import Popper from 'popper.js';
 
 ReactDOM.render(
     <React.StrictMode>

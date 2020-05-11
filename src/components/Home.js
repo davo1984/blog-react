@@ -16,20 +16,17 @@ const Home = (props) => {
     }
 
     return (
-        <Container id="outSide">
-            <Row>
-                <div id="App">
-                    <SideMenu pageWrapId={"page-wrap"} outerContainerId={"App"} />
-                    <div id="page-wrap">
-                        <h1 className="display-1">David O. Oliver</h1>
-                        <h4 className="display3">Full Stack Junior Web Developer for hire</h4>
-                    </div>
-                </div>
-            </Row>
-            <Row>
-                <Col>
-                </Col>
-            </Row>
+        <Container>
+            <div id="App">
+                <header className="text-center">
+                    <h1 className='display-3'>David O. Oliver</h1>
+                    <h4 className="display-5">In a nutshell this is my story.</h4>
+                </header>
+                <SideMenu pageWrapId={"page-wrap"} outerContainerId={"App"} />
+                <main id="page-wrap">
+                    
+                </main>
+            </div>
         </Container>
     );
 }

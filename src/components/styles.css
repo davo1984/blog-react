@@ -19,7 +19,7 @@ body {
 }
 
 #page-wrap {
-  text-align: center;
+  text-align: left;
 
   /* Prevent sidebar from showing a scrollbar on page */
   overflow: auto;
@@ -92,12 +92,16 @@ body {
 
 #inSide {
     width: 80%;
-    max-width: 960px;
+    max-width: 90vw;
     margin: 10% auto;
+    margin-left: 10% auto;
     background-color: ivory;
     border-radius: 10px;
     opacity: .8;
     padding: 10%;
+    text-indent: 3em;
+    text-align: left;
+    /* letter-spacing: 3px; */
 }
 
 #inCard {

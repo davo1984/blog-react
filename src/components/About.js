@@ -5,7 +5,7 @@ import {
 } from 'reactstrap';
 import SideMenu from './SideMenu';
 
-const About = (props) => {
+const About = () => {
     const aboutText = ["I have always liked to tinker with my hands, to make things work. Programming feels like the ultimate expression of making things work – creating something that gets a specific job done.",
         "I did that working for a contractor for the Navy. They designed and built the LCAC Hovercraft, and I took care of the nuts and bolts – literally, working with logistics support and programming predictive inventory needs for subsequent missions.",
         "Not every job is as exciting as working for a Navy contractor, but a rather pedestrian project can turn out to have some deeply meaningful applications. I helped develop a software database package designed to help environmental laboratories keep track of testing results, which became the software chosen for the Hanford nuclear site cleanup in Washington state.",
@@ -16,17 +16,18 @@ const About = (props) => {
     return (
         <Container>
             <div id="App">
+                <header className='text-center'>
+                    <h1 className='display-3'>David O. Oliver</h1>
+                    <h4 className="display-5">In a nutshell this is my story.</h4>
+                </header>
                 <SideMenu pageWrapId={"page-wrap"} outerContainerId={"App"} />
-                <div id="page-wrap">
-                    <h1 className='display-1'>David O. Oliver</h1>
-                    <h4 className="display-3">In a nutshell this is my story.</h4>
-                </div>
-
+                <main id="page-wrap text-center">
                 <div id='inSide'>
                     {aboutText.map((item, key) =>
                         <p>{item} {item.id}</p>
                     )}
                 </div>
+                </main>
             </div>
         </Container>
     )

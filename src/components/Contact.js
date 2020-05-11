@@ -9,31 +9,30 @@ const Contact = (props) => {
     return (
         <Container>
             <div id="App">
+                <header className="text-center">
+                    <h1 className='display-3'>David O. Oliver</h1>
+                    <h4 className="display-5">In a nutshell this is my story.</h4>
+                </header>
                 <SideMenu pageWrapId={"page-wrap"} outerContainerId={"App"} />
-                <div id="page-wrap">
-                    <h1 className='display-1'>David O. Oliver</h1>
-                    <h4 className="display-3">Let's get in touch</h4>
-                </div>
-
-                <div>
+                <main id="page-wrap">
                     <Row>
-                        <Col lg={{ size: 'auto', offset: 3 }} sm={{ size: 'auto', offset: 1 }} xs={{ size: 'auto' }}>
+                        <Col lg={{ size: 'auto', offset: 5 }} sm={{ size: 'auto', offset: 1 }} xs={{ size: 'auto' }}>
                             <Card>
-                                <Card body id='inCard' className="text-center">
+                                <CardBody id='inCard' style={{width: "20rem"}}>
                                     <CardTitle className="card-header bg-primary text-center">David O. Oliver</CardTitle>
                                     <CardSubtitle>Contact Me</CardSubtitle>
-                                    <CardImg top width="100%" maxwidth="200px" src="https://cdn.pixabay.com/photo/2017/07/25/01/22/cat-2536662_960_720.jpg" alt="MY PICTURE HERE" />
-                                    <CardText className="text-left">
-                                        <ul>davooliver1964@gmail.com</ul>
-                                        <ul><CardLink href="https://www.linkedin.com/in/DavidOOliver1984">My Linked-In Profile</CardLink></ul>
-                                        <ul><CardLink href="https://github.com/davo1984">My GitHub Page</CardLink></ul>
-                                        <ul>(859) 533-6681</ul>
+                                    <CardImg className="border-rounded" top width="100%" maxwidth="200px" src="https://cdn.pixabay.com/photo/2017/07/25/01/22/cat-2536662_960_720.jpg" alt="MY PICTURE HERE" />
+                                    <CardText className="text-left text-centered">
+                                        davooliver1964@gmail.com<br/>
+                                        <CardLink href="https://www.linkedin.com/in/DavidOOliver1984">My Linked-In Profile</CardLink><br/>
+                                        <CardLink href="https://github.com/davo1984">My GitHub Projects</CardLink><br/>
+                                        (859) 533-6681<br/>
                                     </CardText>
-                                </Card>
+                                </CardBody>
                             </Card>
                         </Col>
                     </Row>
-                </div>
+                </main>
             </div>
         </Container>
     );
