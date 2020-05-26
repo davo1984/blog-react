@@ -2,8 +2,10 @@ html,
 body {
   margin: 0;
     background-color: tan;
-    background-image: 
-        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp');
+    background-image:
+      url('../images/Davo&Spot.jpg');
+    /* background-image: 
+        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

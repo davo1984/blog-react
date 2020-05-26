@@ -7,6 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Login from './components/Login';
+import Blog from './components/Blog';
 import './App.css';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
                     {/* <Route path="/projects" component={Projects} /> */}
                     <Route path="/contact" component={Contact} />
                     <Route path="/about" component={About} />
-                    {/* <Route path="/posts" component={Posts} /> */}
+                    <Route path="/blog" component={Blog} />
                 </Switch>
             </Container>
         </main>

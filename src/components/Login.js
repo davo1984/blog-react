@@ -84,7 +84,7 @@ function Login(props) {
                 <SideMenu pageWrapId={"page-wrap"} outerContainerId={"App"} />
                 <div id="page-wrap">
                     <h1 className='display-1'>David O. Oliver</h1>
-                    <h4 className="display-3">If you're not me then you can't log in.</h4>
+                    <h4 className="display-5">If you're not me then you can't log in.</h4>
                 </div>
                 <Form onSubmit={handleSubmit}>    {/* onSubmit={this.handleSubmit(e)} */}
                     <div className="form-group text-left">

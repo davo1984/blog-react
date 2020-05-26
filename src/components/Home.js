@@ -20,7 +20,7 @@ const Home = (props) => {
             <div id="App">
                 <header className="text-center">
                     <h1 className='display-3'>David O. Oliver</h1>
-                    <h4 className="display-5">In a nutshell this is my story.</h4>
+                    <h4 className="display-5">Web Developer for hire</h4>
                 </header>
                 <SideMenu pageWrapId={"page-wrap"} outerContainerId={"App"} />
                 <main id="page-wrap">
