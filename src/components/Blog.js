@@ -5,15 +5,16 @@ import {
 } from 'reactstrap';
 import SideMenu from './SideMenu';
 import postsJSON from './postsJSON';
+import BlogPost from './BlogPost';
 // import Post from './Post';
 
 const Blog = (props) => {
     const posts = postsJSON();
     console.log('posts', posts, 'length', posts.posts.post.length);
 
-    const displayPost = (props) => {
-        console.log('in displayPost', props);
-
+    const displayPost = (currentPost) => {
+        console.log('in displayPost currentPost', currentPost);
+        BlogPost(currentPost);
         // setToggle(!toggle);
         // setPostId(props);
     }
@@ -31,7 +32,8 @@ const Blog = (props) => {
                         {console.log(posts.posts.post.length, 'posts=', posts.posts)}
                         {posts.posts.post.length > 0 ? posts.posts.post.map((post, key) =>
                             <Col lg={{ size: 3 }} sm={{ size: 'auto' }} xs={{ size: 'auto' }}>
-                                <div className="card my-3 style='width: 18rem;'" onClick={() => displayPost(posts.post)}>
+                                {/* console.log( 'Within display of Card: posts.post=', post ) */}
+                                <div className="card my-3 style='width: 18rem;'" onClick={() => displayPost(post)}>
                                     <div className="card-body">
                                         <h5 className="card-title">{post.title}</h5>
                                         <h6 className="card-subtitle mb-2 text-muted">{post.subTitle}</h6>
