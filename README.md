@@ -7,6 +7,14 @@ David O. Oliver
 This is a learning project as well as how I'm going to display and edit my and my wife's blogs.
 This is the ReactJS based frontend for my blog.
 
+Currently the blog posts are stored in JSON strings, but soon they will be in a mysql DB, using Laravel for the backend. 
+
+Soon to be added is a page with all of my projects.
+
+Also to be implemented is a form to make the posts on to include them into the database.
+
+I need to do some research to come up with interesting material for the blog posts.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

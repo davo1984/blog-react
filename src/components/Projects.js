@@ -27,21 +27,26 @@ const BlogPost = (props) => {
         //         </header>
         //         <SideMenu pageWrapId={"page-wrap"} outerContainerId={"App"} />
         //         <main id="page-wrap">
-                    <Row>
-                        {console.log('post props.paragraph.length', props.paragraph.length)}
-                        <Col lg={{ size: 9 }} sm={{ size: 'auto' }} xs={{ size: 'auto' }}>
-                            <div className="card my-5 style='width: 18rem;'">
-                                {/*  onClick={() => displayPost(props.post)}> */}
-                                <div className="card-body">
-                                    <h5 className="card-title">{props.title}</h5>
-                                    <h6 className="card-body mb-2 text-muted">{props.subTitle}</h6>
-                                    {props.paragraph.length > 0 ? props.paragraph.map((paragraph, key) =>
-                                        <p className="card-text">{props.paragraph}</p>
-                                    ) : null}
-                                </div>
-                            </div>
-                        </Col>
-                    </Row>
+        <Row>
+            {console.log('post props.paragraph.length', props.paragraph.length)}
+            <Col lg={{ size: 9 }} sm={{ size: 'auto' }} xs={{ size: 'auto' }}>
+
+                <H2>My Projects</h2>
+
+                <p>
+                    Simple Javascript <a href='https://davo1984.github.io/W3-Stories/' title='Silly story generator'>story
+        creator.</a>
+                </p>
+                <p>
+                    <a href='https://davo1984.github.io/W3-splash/' title='Splash Page'>Mozilla splash page.</a>
+                </p>
+
+                <p>
+                    <a href='https://davo1984.github.io/W3-splash/' title='Splash Page'>Library Project in Laravel</a>
+                </p>
+
+            </Col>
+        </Row>
         //         </main>
         //     </div>
         // </Container>

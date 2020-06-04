@@ -31,13 +31,17 @@ const Blog = (props) => {
                     <Row>
                         {console.log(posts.posts.post.length, 'posts=', posts.posts)}
                         {posts.posts.post.length > 0 ? posts.posts.post.map((post, key) =>
-                            <Col lg={{ size: 3 }} sm={{ size: 'auto' }} xs={{ size: 'auto' }}>
+                            <Col lg={{ size: 6 }} sm={{ size: 'auto' }} xs={{ size: 'auto' }}>
                                 {/* console.log( 'Within display of Card: posts.post=', post ) */}
                                 <div className="card my-3 style='width: 18rem;'" onClick={() => displayPost(post)}>
                                     <div className="card-body">
                                         <h5 className="card-title">{post.title}</h5>
                                         <h6 className="card-subtitle mb-2 text-muted">{post.subTitle}</h6>
-                                        {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+
+                                        {post.paragraph.length > 0 ? post.paragraph.map((paragraph, key) =>
+                                            <p className="card-text">{paragraph}</p>
+                                        ) : null}
+
                                     </div>
                                 </div>
                             </Col>

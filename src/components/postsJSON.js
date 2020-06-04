@@ -8,9 +8,7 @@ const postsJSON = (props) => {
                 "subTitle": "A look back, good and bad, and growing pains",
                 "paragraph": [
                     "Over all, this Bootcamp has been one massive bit of stress which has left me burnt out, teetering on the edge of an episode of Major Depression. I guess in this society, one is never to mention such things. Well, that is just a part of me. Once I get a job and begin mixing with intelligent people, for the first time in years, I'm sure that I'll bounce right back. I always do.",
-
                     "As I look back on this blog, I think I grew the most in rekindling my love of programming. I had gotten away from that and had been hiding from the fact that that is what God has put me on this earth to do for a living. What stresses me out the most is the idea of not being able to find a job developing programs.",
-
                     "As recommended by the professionals at Awesome Inc, I have been working hard to make sure my final portfolio, blog, homepage, final project, and other projects are online and linked so future employers can learn about everything I did during the Bootcamp. In fact, I hope these posts are of some interest to someone, employer or not. I had fun blogging and hope to continue in the future."
                 ]
             },
@@ -27,12 +25,19 @@ const postsJSON = (props) => {
                 "subTitle": "Week 10",
                 "paragraph": [
                     "What are your thoughts about the Final Project?",
+                    "",
                     "What do you think you will struggle with in completing the Final Project? Where will you excel?",
+                    "",
                     "What are your opinions on the Agile Methodology? Do you think it takes up time? Do you think large scale projects can be completed without it?",
+                    "",
                     "Compared to weeks three and six, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
+                    "",
                     "What cool new features have you learned about from the languages and frameworks you already know that will improve your workflow / add slick features to your final project?",
+                    "",
                     "How many jobs have you applied to?",
-                    "Look back on the old questions to see if any of them would be good to answer this week compared to week 1."
+                    "",
+                    "Look back on the old questions to see if any of them would be good to answer this week compared to week 1.",
+                    ""
                 ]
             },
             {
@@ -40,8 +45,8 @@ const postsJSON = (props) => {
                 "subTitle": "",
                 "paragraph": [
                     "What are your thoughts about Laravel and React?",
-                    "What is one thing that you love about React or Laravel that you used to hate / didn't understand how to use?",
                     "",
+                    "What is one thing that you love about React or Laravel that you used to hate / didn't understand how to use?",
                     ""
                 ]
             },
@@ -50,10 +55,15 @@ const postsJSON = (props) => {
                 "subTitle": "",
                 "paragraph": [
                     "What are your thoughts about how far you have come? How has your Digital Literacy, Computational Thinking, and Adoption of Coding Culture increased?",
+                    "",
                     "How do you plan on continuing to grow those areas?",
+                    "",
                     "What are you struggling with the most in the Tech Stack so far and why?",
+                    "",
                     "What were your main takeaways from the career fair?",
-                    "After making it through the tech stack, where do you think your current gaps are?"
+                    "",
+                    "After making it through the tech stack, where do you think your current gaps are?",
+                    ""
                 ]
             },
             {
@@ -61,11 +71,17 @@ const postsJSON = (props) => {
                 "subTitle": "PHP, how a programming language is meant to be. This is where I feel the most comfortable. Too bad that besides being old and unfashionable it is not a framework.",
                 "paragraph": [
                     "What have you learned about PHP and server side programming that you were not aware of prior to this week?",
+                    "",
                     "What do you want to know more about PHP and server side programming?",
+                    "",
                     "How has learning PHP been? What are some similarities and differences you can see with JS",
+                    "",
                     "What if you had started with PHP instead of JS?",
+                    "",
                     "Are there any exercises you think would be improved if you refactored them to PHP from JS? Do you plan to?",
-                    "Find one library, framework, NPM package, and/or external web API you think you might want use for your final project."
+                    "",
+                    "Find one library, framework, NPM package, and/or external web API you think you might want use for your final project.",
+                    ""
                 ]
             },
             {
@@ -73,10 +89,15 @@ const postsJSON = (props) => {
                 "subTitle": "React and how I love it and love to hate it.",
                 "paragraph": [
                     "What do you like about React?",
+                    "",
                     "What are you struggling with the most about React?",
+                    "",
                     "How has React caused you to rethink your existing projects?",
+                    "",
                     "What is your biggest win this week? Halfway through!",
-                    "Compared to week three, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?"
+                    "",
+                    "Compared to week three, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
+                    ""
                 ]
             },
             {
