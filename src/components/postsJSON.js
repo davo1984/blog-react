@@ -45,9 +45,10 @@ const postsJSON = (props) => {
                 "subTitle": "",
                 "paragraph": [
                     "What are your thoughts about Laravel and React?",
-                    "",
+                    "Laravel is very powerful and makes interacting with the database both easier and harder. Easier because Eligant makes manipulating it simple. Just that easy. Harder because it is both one more level abstracted and yet another syntax to learn. Setting access to the data is now multiple steps whose results are spread out in various files. Migrations, factories and seeds are wonderful to use but just another step on the front end to set up.",
                     "What is one thing that you love about React or Laravel that you used to hate / didn't understand how to use?",
-                    ""
+                    `React is powerful and, as I'm getting better at using it, is becoming fun to use. My how my view of it has changed. With mastery of any field comes enjoynment. Frustration is the feeling that one should already know how to do something. Where I have improved is in my understanding JSX of how to use the "render" section.`,
+                    `Laravel started out as a complete mystery. Now I understand more of what it can do I am sometimes left with the feeling of "how" to do it or "where" is the boiler plate code it created for me that I now need to modify. This is just a bump in the road to mastery and enjoyment of use.`
                 ]
             },
             {
