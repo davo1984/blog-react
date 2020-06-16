@@ -1,8 +1,17 @@
 import React from "react";
 
 const postsJSON = (props) => {
-     let posts = {
+    let posts = {
         "post": [
+            {
+                "title": "Post-Camp Week 1",
+                "subTitle": "Job hunting, project cleanup, and a sigh of relief",
+                "paragraph": [
+                    `I applied for one job this week, Rabb Consulting, rabbconsultingllc.com. (So much for this web page addresses turning into links automatically.) Part-time contract work. I really hope I get it for the experience it would bring. Later I can get a full time job with benefits, but for now I need to gain experience. I didn't get any benefits or health insurance in my previous job, and this is significantly better money. I had to apply through SimplyHired because the email address on Rabb's web site bounced back, I even tried careers at their website and it also bounced.`,
+                    `I fought with my computer, had to reinstall node and npm, then fix the package.json and firebase.json to get my React Restaurant app to upload. After testing the "npm run build" version on my machine, using the instructions provided by "run build" and liked what I saw, not perfect but ok for now. When I deployed to Firebase the main picture was missing. Well I guess I have something to troubleshoot.`,
+                    `There is always more to learn. I just wish I had some time to delve into Drupal and sharpen my PHP skills.`
+                ],
+            },
             {
                 "title": "Main Camp Weeks 12 & 13, Offsite",
                 "subTitle": "A look back, good and bad, and growing pains",
@@ -17,88 +26,82 @@ const postsJSON = (props) => {
                 "subTitle": "Computer. Hardware. Crash. AGAIN!!!",
                 "paragraph": [
                     "Working on my final project has been equal parts wonderful and frustrating. The first week I accomplished everything I planned for myself. The second week my computer completely borked, it had been randomly rebooting but now this had become just too often. I attempted to erase the drive and reinstall everything and it shut down before I could even finish reinstalling all the dev tools. I picked up a loaner from Awesome Inc and struggled. Between updating software and coding problems I never completed near as many stories as I felt I should have. This put me WAY behind.",
-                    "I try to pseudo-code every bit of code I write. Sometimes it is not much, maybe just a wireframe of how I want it to look, a diagram of how the code must flow, or a list of comments in the code of what needs to be done and how. This really does speed up my coding."
+                    "I try to pseudo-code every bit of code I write. Sometimes it is not much, maybe just a wire-frame of how I want it to look, a diagram of how the code must flow, or a list of comments in the code of what needs to be done and how. This really does speed up my coding."
                 ]
             },
             {
                 "title": "Main Camp Week 10, Offsite",
-                "subTitle": "Week 10",
+                "subTitle": "Final project through the lens of computational thinking and agile methodology",
                 "paragraph": [
-                    "What are your thoughts about the Final Project?",
-                    "",
-                    "What do you think you will struggle with in completing the Final Project? Where will you excel?",
-                    "",
-                    "What are your opinions on the Agile Methodology? Do you think it takes up time? Do you think large scale projects can be completed without it?",
-                    "",
-                    "Compared to weeks three and six, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
-                    "",
-                    "What cool new features have you learned about from the languages and frameworks you already know that will improve your workflow / add slick features to your final project?",
-                    "",
-                    "How many jobs have you applied to?",
-                    "",
-                    "Look back on the old questions to see if any of them would be good to answer this week compared to week 1.",
-                    ""
+                    
+                    "Nervous anticipation and excitement: that is what I feel as I consider my final project. I want it to be big and challenging, but that is what makes it somewhat intimidating. Of course just getting started with the analysis tends to calm my nerves and becomes a productive outlet for my nervous energy.",
+                    
+                    "I am pretty good at the big picture items. Because my computational thinking is very good I can pseudocode and determine exactly what needs to be done. However sometimes the nitty gritty details of the exact syntax can trip me up. I am the kind of person who needs to do something once or twice to understand the ins and outs of getting it to do exactly what I need it to.",
+                    
+                    "I love Agile Methodology! Mostly because it is how I naturally think about coding. Get some basic functionality; use and test it; find where it can be improved, where it needs to be improved first; break the fixes/improvements into small pieces; and work on each small piece in the order that makes the most sense. Repeat until mostly satisfied.",
+                    
+                    "My ideas for a final project at this point remain much the same. A basic laboratory information system (LIMS) or a transportation scheduler. But I have added another project to consider, a Bug Tracking system. This has the advantage of being something that everyone in the industry uses and has an interest in. It could even be customized into a ticket tracker for a small repair shop or a home repair business.",
+                    
+                    "The ability to use a relational database is what separates a real and useable project from a learning project. Without the ability to store and fetch data any project is trivial and no more than a toy or quick hack."
                 ]
             },
             {
                 "title": "Main Camp Week 9, Offsite",
-                "subTitle": "",
+                "subTitle": "Laravel vs. React - the good, the bad, the ugly",
                 "paragraph": [
-                    "What are your thoughts about Laravel and React?",
-                    "Laravel is very powerful and makes interacting with the database both easier and harder. Easier because Eligant makes manipulating it simple. Just that easy. Harder because it is both one more level abstracted and yet another syntax to learn. Setting access to the data is now multiple steps whose results are spread out in various files. Migrations, factories and seeds are wonderful to use but just another step on the front end to set up.",
-                    "What is one thing that you love about React or Laravel that you used to hate / didn't understand how to use?",
-                    `React is powerful and, as I'm getting better at using it, is becoming fun to use. My how my view of it has changed. With mastery of any field comes enjoynment. Frustration is the feeling that one should already know how to do something. Where I have improved is in my understanding JSX of how to use the "render" section.`,
-                    `Laravel started out as a complete mystery. Now I understand more of what it can do I am sometimes left with the feeling of "how" to do it or "where" is the boiler plate code it created for me that I now need to modify. This is just a bump in the road to mastery and enjoyment of use.`
+                    
+                    "Laravel is very powerful and makes interacting with the database both easier and harder. Easier because Elegant makes manipulating it simple. Just that easy. Harder because it is both one more level abstracted and yet another syntax to learn. Setting access to the data is now multiple steps whose results are spread out in various files. Migrations, factories and seeds are wonderful to use but just another step on the front end to set up.",
+                    
+                    `React is also powerful and, as I'm getting better at using it, is becoming fun to use. My, how my view of it has changed! With mastery of any field comes enjoyment. Frustration is the feeling that one should already know how to do something. Where I have improved is in my understanding JSX and how to use the "render" section.`,
+                    `Laravel started out as a complete mystery. Now that I understand more of what it can do, I am sometimes left with the issue of "how" to do it. This is just a bump in the road to mastery and enjoyment of use.`
                 ]
             },
             {
                 "title": "Main Camp Week 8, Offsite",
-                "subTitle": "",
+                "subTitle": "Still growing my skills and looking around at the Covid-changed world",
                 "paragraph": [
-                    "What are your thoughts about how far you have come? How has your Digital Literacy, Computational Thinking, and Adoption of Coding Culture increased?",
-                    "",
-                    "How do you plan on continuing to grow those areas?",
-                    "",
-                    "What are you struggling with the most in the Tech Stack so far and why?",
-                    "",
-                    "What were your main takeaways from the career fair?",
-                    "",
-                    "After making it through the tech stack, where do you think your current gaps are?",
-                    ""
+                    
+                    "Although it is hard for me to grasp I have come a great way. I'm quickly regaining my computational thinking abilities. My digital literacy has always been high and I would rather install and use Apache2, MySQL and PHP as separate programs than installing the commercial MAMP package with it's nonstandard ports and constantly opening up a web page whenever bringing up the servers. But I can understand that the instructors don't want to waste time fiddling with assorted computer configurations and the headaches that brings.",
+                    
+                    "Doing more projects is the only way to continue to grow those skills. At this point, I mainly just need more practice in using the skills so they become second nature and more work in reading and applying the documentation. I'm disappointed that Covid-19 has shut down in-person meetups of the local programming and hacking groups. I enjoy face to face meetings very much more than Zoom or Slack or messaging.",
+                    
+                    "Using React is still my biggest struggle. This is not surprising considering how powerful it is. Besides being powerful it requires a very different approach than I'm used to from COBOL, Fortran and other procedurally oriented programming languages.",
+                    
+                    "Seeing as how everything is done remotely, over Zoom and we didn't have a career fair this camp I'm disappointed.  Covid has greatly changed the world in which I will be working. The big plus is the experience I am getting working remotely shows that I can successfully do so. Additionally more companies will be open to hiring remote workers so the number of job openings will increase for us. Or will as the economy reopens and picks back up."
                 ]
             },
             {
                 "title": "Main Camp Week 7, Offsite",
-                "subTitle": "PHP, how a programming language is meant to be. This is where I feel the most comfortable. Too bad that besides being old and unfashionable it is not a framework.",
+                "subTitle": "PHP, how a programming language is meant to be. This is where I feel the most comfortable. Too bad it is seen as old and unfashionable.",
                 "paragraph": [
-                    "What have you learned about PHP and server side programming that you were not aware of prior to this week?",
-                    "",
-                    "What do you want to know more about PHP and server side programming?",
-                    "",
-                    "How has learning PHP been? What are some similarities and differences you can see with JS",
-                    "",
-                    "What if you had started with PHP instead of JS?",
-                    "",
-                    "Are there any exercises you think would be improved if you refactored them to PHP from JS? Do you plan to?",
-                    "",
-                    "Find one library, framework, NPM package, and/or external web API you think you might want use for your final project.",
-                    ""
+                    
+                    `One of my biggest surprises this week concerning PHP is just how much programming is needed on the back side. All UI is very visible, but so much is done on the back side with that data. To me that is where the action is.`,
+                    
+                    `I want to do more of this kind of programming. I find server side programming the most rewarding and fulfilling. Mainly because I feel so comfortable in it, but manipulating and using the data is what computers are for, not making pretty user interfaces, which do serve a very important purpose.`,
+                    
+                    `I love PHP because I feel so much at home in it. It feels much like programming in an older, procedural based language like Cobol, Fortran or C. No strange syntax, just the ability to program in clean, easily maintainable structured programming.`,
+                    
+                    "I think I would have been much more comfortable in the first part of the bootcamp if I had started with PHP instead of Javascript. PHP feels so familiar to me. Things are straight forward, program organization is what you make it to be and structured, maintainable code is easy to write and straight forward to understand.",
+                    
+                    `I don't think any of the earlier exercises would benefit from being refactored into PHP, though. I'll use PHP for new projects and for modifications and extensions to packages which already use it, for example Drupal and Wordpress`,
+                    
+                    `I have been considering various libraries, frameworks, etc. for my final project. I think I will include several. Reactstrap builds upon the power of Bootstrap but is easier to read and understand. Google-map-react makes putting a Google map on your page mostly pain free. React-quill allows me to give my users "what you see is what you get" editing of text. And I'll most likely find another one for a part of the project that I don't even know exists now.`
                 ]
             },
             {
                 "title": "Main Camp week 6, Offsite",
                 "subTitle": "React and how I love it and love to hate it.",
                 "paragraph": [
-                    "What do you like about React?",
-                    "",
-                    "What are you struggling with the most about React?",
-                    "",
-                    "How has React caused you to rethink your existing projects?",
-                    "",
-                    "What is your biggest win this week? Halfway through!",
-                    "",
-                    "Compared to week three, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
-                    ""
+                    
+                    "I like that React is very powerful and JSX greatly cuts down how much code needs to be typed in. I like that the error messages usually point to exactly where there is a syntax error with mostly clear wording of what is wrong.",
+                    
+                    "Right now, however, my mind is muddled up with differences between javascript and JSX: where to put them and what the differences are. Asynchronous execution is hard to keep track of and easy to forget that it is always used. Object-oriented programming is still something I'm struggling with. Furthermore when to update state and when to use props instead so the screen is not refreshed too often.",
+                    
+                    "React is like driving a Jaguar XKE, a stylish way to get to your destination as quickly as possible with excellent power, acceleration and handling. But if you want to get there in comfort, or you just don't need all that power, speed and style then perhaps you may wish to use another method to get you there.",
+                    
+                    "Anything I can get to work in React is a win and really makes me feel good. Being halfway through the bootcamp also feels like such a win. My computational thinking ability is really returning to me. I can now start to think of the overall system and see how various functions fit together and still work with the small parts to get them working efficiently.",
+                    
+                    `Once again I'm thinking of final project ideas. One of the projects I'm most interested in doing is a Laboratory Information System, which would track samples through a laboratory. It would track information about the sample (when and where collected and by whom) and what tests need to be performed on it. Perhaps an invoice would need to be printed or statistical analysis to determine if the process was projected to go "out of bounds" in the near future.`
                 ]
             },
             {
@@ -187,6 +190,6 @@ const postsJSON = (props) => {
         ]
     }
     console.log('in postsJSON', posts);
-    return ( {posts} );
+    return ({ posts });
 };
 export default postsJSON;
