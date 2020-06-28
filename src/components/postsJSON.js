@@ -4,6 +4,24 @@ const postsJSON = (props) => {
     let posts = {
         "post": [
             {
+                "title": "Post-Camp Week 3",
+                "subTitle": "Getting into the swing of Post-Camp work",
+                "paragraph": [
+                    `Another week hard at it learning React Native and job searching. I'm slower at putting in resumes than I would like, but I'm only sending out those I feel are a best fit. Tailoring each resume and cover letter for each advertised position is the real slow and hard part.`,
+                    `I fought with my computer, had to reinstall node and npm, then fix the package.json and firebase.json to get my React Restaurant app to upload. After testing the "npm run build" version on my machine, using the instructions provided by "run build" and liked what I saw, not perfect but ok for now. When I deployed to Firebase the main picture was missing. Well I guess I have something to troubleshoot.`,
+                    `Another project is to get my proper blog to show up correctly. I'm sure that will take an entire day or two and will have plenty of learning but nothing to commit. I also need to practice with PHP and the ability to throw up a web page with a template quickly. That should be a fairly valuable skill. On a related note I'll soon start on the Drupal training Justin pointed me towards.`
+                ],
+            },
+            {
+                "title": "Post-Camp Week 2",
+                "subTitle": "Using Awesome Inc's Tracking Software",
+                "paragraph": [
+                    `I just found the "Create Job" section of the nav bar where I can add a Job and Company. Why?`,
+                    `I guess as we apply for a job we can each see what the others have applied to and we can use that as encouragement to apply for more jobs. Or just apply to the same jobs as the others in my cohort. Time to put it to use. I don't think I'll use this blog post on my weekly blog.`,
+                    `I don't like this piece of software. I know it tracks how well be have continued to better ourselves and look for work. But it has a blog post feature that is totally useless because I put those on my Blog, as we all should. I'm also getting tired of getting a 403 error whenever I access the site. But it is still a work in progress and it is the "tool" I am provided and expected to use. So I will use it without complaint.`
+                ],
+            },
+            {
                 "title": "Post-Camp Week 1",
                 "subTitle": "Job hunting, project cleanup, and a sigh of relief",
                 "paragraph": [
