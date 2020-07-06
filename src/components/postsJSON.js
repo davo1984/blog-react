@@ -4,6 +4,13 @@ const postsJSON = (props) => {
     let posts = {
         "post": [
             {
+                "title": "Post-Camp Week 4",
+                "subTitle": "The Learning Never Ends, Ever",
+                "paragraph": [
+                    `Another week plugging away at learning something new and using my knowledge to build something interesting. I am working at learning Redux to make state management easier in React and plain JavaScript since Redux can be used without React. I plan on using it in React Native to help me build a Task Manager for my wife. Basically a fancy "To Do" list so she doesn't have to drive back to Richmond to reassure herself that she actually locked the office door. I plan on having multiple separate lists. I haven't decided whether to use JSON or some sort of self contained (on the phone) SQL database to store the data. Perhaps I'll do two versions just to gain the experience in App data storage.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 3",
                 "subTitle": "Getting into the swing of Post-Camp work",
                 "paragraph": [
