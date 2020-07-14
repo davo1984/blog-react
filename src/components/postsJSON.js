@@ -4,6 +4,17 @@ const postsJSON = (props) => {
     let posts = {
         "post": [
             {
+                "title": "Post-Camp Week 5",
+                "subTitle": "Same stuff, only different",
+                "paragraph": [
+                    `Another week of:`,
+                    `Submitting job application (I am seeing fewer jobs for junior / entry level developers and get only junk when I search for software QA positions).`,
+                    `Learning something new: Redux. At the end of the week I just started to learn just what I don't know. Discouraging, but now I know what to look for, what questions to ask.`,
+                    `Getting a project up using React / Redux and possibly React-Native. Another ToDo application. I just hit a wall in what I can do. Time to go back to tutorials with very specific questions. I've found what looks to be the answers I need, now to play with the code.`,
+                    `Fighting off my depression. I'm keeping it at bay, but I am also realizing that it is just outside the door waiting to pounce. Right now a "win" would go very far. I also need to socialize more, very hard with this pandemic keeping everyone social distancing and no in person meetings.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 4",
                 "subTitle": "The Learning Never Ends, Ever",
                 "paragraph": [
