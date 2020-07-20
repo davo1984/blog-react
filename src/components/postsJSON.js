@@ -3,6 +3,27 @@ import React from "react";
 const postsJSON = (props) => {
     let posts = {
         "post": [
+            // {
+            //     "title": "Post-Camp Week ",
+            //     "subTitle": "",
+            //     "paragraph": [
+            //         ``,
+            //         ``,
+            //         ``,
+            //         ``,
+            //         ``
+            //     ]
+            // },
+            {
+                "title": "Post-Camp Week 6",
+                "subTitle": "Big Breakthrough in understanding",
+                "paragraph": [
+                    `I spend the week pounding away at learning Redux, specifically how it interacts with React. The first half of the week felt like an exercise in frustration and futility. Then, suddenly and without warning, it just seemed to click. I could get things to work. I felt good about this for about two days. Then Redux went south, without me. Redux DevTools suddenly reported that the store contained none of my data structure. Seems like I changed the basic app and added in a second store, so the wrong store was being listed. Less strangely my attempts to map the store into props just did not work. I got it to work in one section, but not in another.`,
+                    `So now here I sit over the weekend pondering whether to nuke and pave with the project or put it aside and study another tutorial to gain more insite into what isn't happening. I'm leaning into doing both actually. I really want to get this project done so I can port/refactor it into React-Native.`,
+                    `My job search continues. I've passed my info to a neighbor, who is a newly retired recruiter. She still has contacts in the industry and will pass my info to them. Hopefully I can at least gain a few leads. I'd love to chat with an insider about what it would take to put my COBOL knowledge to work.Or is that is not even possible I'd like to know so I don't waste my time trying to upgrade my chops.`,
+                    `On the home front I'm going to put some effort into some projects around the house. Namely getting the tablesaw sled built so I can finish the shelves in the master bath. Hooking the fridge up to the other water supply should fix the low water pressure of the water it delivers so that will be nice during this summer's oppresive heat. I want to get back into drawing so I'll start with a sketch a day project starting Monday. And it is time to bump up my Esperanto studies.`
+                ]
+            },
             {
                 "title": "Post-Camp Week 5",
                 "subTitle": "Same stuff, only different",
