@@ -14,6 +14,17 @@ const postsJSON = (props) => {
             //         ``
             //     ]
             // },
+            // {
+            //     "title": "Post-Camp Week ",
+            //     "subTitle": "",
+            //     "paragraph": [
+            //         ``,
+            //         ``,
+            //         ``,
+            //         ``,
+            //         ``
+            //     ]
+            // },
             {
                 "title": "Post-Camp Week 8",
                 "subTitle": "Not a single callback",
@@ -21,7 +32,7 @@ const postsJSON = (props) => {
                     `I'm still sending out resumes, but have not received a single callback. This is getting a bit discouraging. Reguardless to keep trying is the important thing I must not lose sight of.`,
                     `During the middle of the week I began the switch from working on React/Redux and started reserching freelancing. Like everything it feels like it is overhyped. But I do think that I have a shot at making it work for me.`,
                     `I jumped into learning how WordPress works to get a basic website up, add posts and theme it. To save time I just bought a Udemy course and jumped right into coding my own site in addition to following along with the instructor. I didn't have the prequsite knowledge of using WordPress, but found that it is very intuitive. I can figure out where to make posts and changes, but I sure couldn't walk someone else through the process.`,
-                    `Thursday evening I received tragic news. One of my best friends from when I lived in Baton Rouge was killed when his car fell off jack stands. Joe was one of the safest guys I know so I am inclined to believe that it was a failure of his jack stands rather than a failure to do the work safely. Never by jack stands or jacks from Harbor Freight!`,
+                    `Thursday evening I received tragic news. One of my best friends from when I lived in Baton Rouge was killed when his car fell off jack stands. Joe was one of the safest guys I know so I am inclined to believe that it was a failure of his jack stands rather than a failure to do the work safely. Never buy jack stands or jacks from Harbor Freight!`,
                     `I guess the worst part is the realization that in the 15 years I've been in Lexington I haven't made a single friend. With the kids getting older and all the hours I put into the tax business making friends is something that got pushed to the background. With the pandemic spending time with others is dangerous and many groups have switched to Zoom meetings.`
                 ]
             },
@@ -32,7 +43,7 @@ const postsJSON = (props) => {
                     `Another frustrating week of making progress; attempting to extend the project and breaking it; trying more and more things to fix it and nothing works; then finding something simple that fixes it. Then having to go back to find and fix problems the attempted fixes caused, or reinsert pieces of code which were commented out while attempting to find the bug. This is getting old fast. I am almost to the point of getting on fixer to find someone who can mentor and instruct me on Redux and React.`,
                     `I really want to finish this project, multiple To-Do lists with moveable items written in ReactJS using Redux. Then I want to port the project to React Native so I can run it on my phone and my sister on her iPhone. I think it is a killer project, beyond any tutorial out there. Additionally I'm doing this on my own, not following along with a tutorial although doing that might be helpful, but it would be a time waster and backtracking.`,
                     `On the job hunting site I haven't received a single interview request. Time to rethink my strategy. First I need an email address that doesn't end in "1964" which makes me look very old. Got to drop or change that to "84." Then I need to see what I need to learn to try my hand at freelancing on Upwork, Fiver and FiverPro. Wordpress or Drupal? I think it might be a quicker start to go with Wordpress, but I can set both up on my computer and then host a test site with a pre-written theme somewhere to show off my mad web chops.`,
-                    `Speaking of "madness" while my wife has been in Port Sulphur I've been managing my mood by getting up at at 6am sharp and getting to bed extra early, both of which are amazingly easier to do without her. Then I have a longer bike ride than normal, seven miles or so, followed by a cold shower and breakfast with coffee. The cold shower does wonders to refresh me and put me in a positive mood to start the day. I do good so long as I don't too much coffee or read the news`,
+                    `Speaking of "madness" while my wife has been in Port Sulphur I've been managing my mood by getting up at at 6am sharp and getting to bed extra early, both of which are amazingly easier to do without her. Then I have a longer bike ride than normal, seven miles or so, followed by a cold shower and breakfast with coffee. The cold shower does wonders to refresh me and put me in a positive mood to start the day. I do well so long as I don't drink too much coffee or read the news.`,
                     `Working on my project, a second round of polishing my portfolio and doing serious research into what skills are needed then building those skills I'll need to freelance will be my plan for this coming week.`
                 ]
             },
@@ -41,8 +52,8 @@ const postsJSON = (props) => {
                 "subTitle": "Big Breakthrough in understanding",
                 "paragraph": [
                     `I spend the week pounding away at learning Redux, specifically how it interacts with React. The first half of the week felt like an exercise in frustration and futility. Then, suddenly and without warning, it just seemed to click. I could get things to work. I felt good about this for about two days. Then Redux went south, without me. Redux DevTools suddenly reported that the store contained none of my data structure. Seems like I changed the basic app and added in a second store, so the wrong store was being listed. Less strangely my attempts to map the store into props just did not work. I got it to work in one section, but not in another.`,
-                    `So now here I sit over the weekend pondering whether to nuke and pave with the project or put it aside and study another tutorial to gain more insite into what isn't happening. I'm leaning into doing both actually. I really want to get this project done so I can port/refactor it into React-Native.`,
-                    `My job search continues. I've passed my info to a neighbor, who is a newly retired recruiter. She still has contacts in the industry and will pass my info to them. Hopefully I can at least gain a few leads. I'd love to chat with an insider about what it would take to put my COBOL knowledge to work.Or is that is not even possible I'd like to know so I don't waste my time trying to upgrade my chops.`,
+                    `So now here I sit over the weekend pondering whether to nuke and pave with the project or put it aside and study another tutorial to gain more insight into what isn't happening. I'm leaning toward doing both actually. I really want to get this project done so I can port/refactor it into React-Native.`,
+                    `My job search continues. I've passed my info to a neighbor, who is a newly retired recruiter. She still has contacts in the industry and will pass my info to them. Hopefully I can at least gain a few leads. I'd love to chat with an insider about what it would take to put my COBOL knowledge to work. Or if that is not even possible I'd like to know so I don't waste my time trying to upgrade my chops.`,
                     `On the home front I'm going to put some effort into some projects around the house. Namely getting the tablesaw sled built so I can finish the shelves in the master bath. Hooking the fridge up to the other water supply should fix the low water pressure of the water it delivers so that will be nice during this summer's oppresive heat. I want to get back into drawing so I'll start with a sketch a day project starting Monday. And it is time to bump up my Esperanto studies.`
                 ]
             },
