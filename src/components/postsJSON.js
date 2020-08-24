@@ -27,16 +27,17 @@ const postsJSON = (props) => {
             // },
             {
                 "title": "Post-Camp Week 11",
-                "subTitle": "",
+                "subTitle": "Still in my WordPress Theme writing Deep Dive. Now I am ready to put a little something up this week.",
                 "paragraph": [
                     `I am really deep into a deep dive learning the internals of WordPress themes. I've worked my way through the theme template hierarchy. Interesting and amazing but convoluted. Got to be learned and very useful.`,
                     `Next to learn are the myriad tags. Just tons of information to learn, much is obsoleted and can be looked up, but I've go to learn enough to know what to look for and where to quickly find it.`,
-                    `I think that it is time to put learning on the back burner and concentrate on getting some WordPress websites up and running as demo projects. My blog, just some simple demo sites and Joyland Neighborhood Association.`
+                    `I think that it is time to put learning on the back burner and concentrate on getting some WordPress websites up and running as demo projects. My blog, just some simple demo sites and Joyland Neighborhood Association.`,
+                    `Also I got my Flavicon up and running. In case you don't know what that is just look at the little icon of my smiling face in your browser tab.`
                 ]
             },
             {
                 "title": "Post-Camp Week 10",
-                "subTitle": "",
+                "subTitle": "Job Seekers groups can be great!",
                 "paragraph": [
                     `More plowing my way through the world of writing WordPress themes. I've got a major problem with my practice theme, but it seems to be one problem which shows up on many pages. I think I was warned about this and just need to decide to do the display by one method or another. Using both methods at the same time yields two different pages displayed on many pages. That is easy to correct. When I'm finished I'll go back and review that part.`,
                     `I'm going to do another bit in ReactJS just to keep sharp with it. I think a hangman game. Sort of a one day project so I've something new to display. So much to learn and if I don't review it on a regular basis it goes right out of my head. That means back to CodeWars several times every week. I'll shoot for an hour a day.`,
