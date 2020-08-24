@@ -26,6 +26,15 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 11",
+                "subTitle": "",
+                "paragraph": [
+                    `I am really deep into a deep dive learning the internals of WordPress themes. I've worked my way through the theme template hierarchy. Interesting and amazing but convoluted. Got to be learned and very useful.`,
+                    `Next to learn are the myriad tags. Just tons of information to learn, much is obsoleted and can be looked up, but I've go to learn enough to know what to look for and where to quickly find it.`,
+                    `I think that it is time to put learning on the back burner and concentrate on getting some WordPress websites up and running as demo projects. My blog, just some simple demo sites and Joyland Neighborhood Association.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 10",
                 "subTitle": "",
                 "paragraph": [
