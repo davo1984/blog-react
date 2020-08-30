@@ -14,17 +14,17 @@ const postsJSON = (props) => {
             //         ``
             //     ]
             // },
-            // {
-            //     "title": "Post-Camp Week ",
-            //     "subTitle": "",
-            //     "paragraph": [
-            //         ``,
-            //         ``,
-            //         ``,
-            //         ``,
-            //         ``
-            //     ]
-            // },
+            {
+                "title": "Post-Camp Week 12",
+                "subTitle": 'Getting ready hang out my "Open for Business" shingle.',
+                "paragraph": [
+                    `Excited to have some mud on the wall that is actually nice to look at.`,
+                    ``,
+                    ``,
+                    ``,
+                    ``
+                ]
+            },
             {
                 "title": "Post-Camp Week 11",
                 "subTitle": "Still in my WordPress Theme writing Deep Dive. Now I am ready to put a little something up this week.",
