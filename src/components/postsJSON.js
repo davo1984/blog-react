@@ -18,11 +18,9 @@ const postsJSON = (props) => {
                 "title": "Post-Camp Week 12",
                 "subTitle": 'Getting ready hang out my "Open for Business" shingle.',
                 "paragraph": [
-                    `Excited to have some mud on the wall that is actually nice to look at.`,
-                    ``,
-                    ``,
-                    ``,
-                    ``
+                    `Excited to have some mud on the wall that is actually nice to look at. I've been trying out several modifications and some were a total mess. That is how I learn, by doing.`,
+                    `I'm putting in too many hours without a break. I'm getting to the point where I'm just not as efficient as I should be and normally am. Time to plan a day or two off. Maybe experiment with waking up extra early then pushing some work. Taking a long break. Work again then call it a day. Possibly start a big project on the house. There are enough that I have pushed off.`,
+                    `Looks like I get an interview with NuCamp. That will be fun. Except I'm a bit nervous about the skills part. I just haven't used CSS, HTML, and JS enough to recall much very quickly when I'm nervous.`
                 ]
             },
             {
