@@ -15,7 +15,7 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
-                "title": "Post-Camp Week 12",
+                "title": "Post-Camp Week 12--8/30",
                 "subTitle": 'Getting ready hang out my "Open for Business" shingle.',
                 "paragraph": [
                     `Excited to have some mud on the wall that is actually nice to look at. I've been trying out several modifications and some were a total mess. That is how I learn, by doing.`,
@@ -24,7 +24,7 @@ const postsJSON = (props) => {
                 ]
             },
             {
-                "title": "Post-Camp Week 11",
+                "title": "Post-Camp Week 11--8/23",
                 "subTitle": "Still in my WordPress Theme writing Deep Dive. Now I am ready to put a little something up this week.",
                 "paragraph": [
                     `I am really deep into a deep dive learning the internals of WordPress themes. I've worked my way through the theme template hierarchy. Interesting and amazing but convoluted. Got to be learned and very useful.`,
@@ -34,7 +34,7 @@ const postsJSON = (props) => {
                 ]
             },
             {
-                "title": "Post-Camp Week 10",
+                "title": "Post-Camp Week 10--8/16",
                 "subTitle": "Job Seekers groups can be great!",
                 "paragraph": [
                     `More plowing my way through the world of writing WordPress themes. I've got a major problem with my practice theme, but it seems to be one problem which shows up on many pages. I think I was warned about this and just need to decide to do the display by one method or another. Using both methods at the same time yields two different pages displayed on many pages. That is easy to correct. When I'm finished I'll go back and review that part.`,
@@ -44,7 +44,7 @@ const postsJSON = (props) => {
                 ]
             },
             {
-                "title": "Post-Camp Week 9",
+                "title": "Post-Camp Week 9--8/9",
                 "subTitle": "Starting a Deep Dive into WordPress",
                 "paragraph": [
                     `I am beginning to warm up to the idea of doing freelance work. This should allow me to both study and firm up on the skills I learned in the Awesome Inc's Boot Camp, gain experience and build a really good portfolio and reputation. This will set me up to getting a really good job later. Meanwhile I will keep on looking for a job. Doing freelance does not mean that I'm not looking for a job.`,
@@ -54,7 +54,7 @@ const postsJSON = (props) => {
                 ]
             },
             {
-                "title": "Post-Camp Week 8",
+                "title": "Post-Camp Week 8--8/2",
                 "subTitle": "Not a single callback",
                 "paragraph": [
                     `I'm still sending out resumes, but have not received a single callback. This is getting a bit discouraging. Regardless to keep trying is the important thing I must not lose sight of.`,
@@ -65,7 +65,7 @@ const postsJSON = (props) => {
                 ]
             },
             {
-                "title": "Post-Camp Week 7",
+                "title": "Post-Camp Week 7--7/26",
                 "subTitle": "Frustration and pondering",
                 "paragraph": [
                     `Another frustrating week of making progress; attempting to extend the project and breaking it; trying more and more things to fix it and nothing works; then finding something simple that fixes it. Then having to go back to find and fix problems the attempted fixes caused, or reinsert pieces of code which were commented out while attempting to find the bug. This is getting old fast. I am almost to the point of getting on fixer to find someone who can mentor and instruct me on Redux and React.`,
