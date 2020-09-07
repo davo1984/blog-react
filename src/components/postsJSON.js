@@ -15,6 +15,16 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 13",
+                "subTitle": "Blog changes needed",
+                "paragraph": [
+                    `For starters I need to decide how to restructure my blog in order to make it generate business for me. I mean the most likely reason a person would wind up here is that they are interested in a web site or some customizations or they are thinking about hiring me for something or the other. They want to see my portfolio of websites, coding projects, and learn what kind of person I am. Time to clean up some of the more personal posts. Perhaps I will separate those into a different blog in a subdomain.`,
+                    `Meanwhile I spent the past week fighting Google Cloud Engine. I'll know all about WordPress and Bitnami's Multisite setup. For example I now know that in order to SSH into GCE I need to use Chrome, not Firefox. I had to install Git manually. My SSL certificate needs to be fixed. I would like it to validate my entire site rather than having to setup a separate one for each subdomain.`,
+                    `I'll spend the first part of this week getting two demo web sites up. Both will be subdomains of my site. I also need to link to them from my site. The other thing to be done is to figure out how to get the SSL certificate properly certifying the subdomains. No site looks good if you have to pass through a "GO BACK. DANGEROUS SITE AHEAD" warning.`,
+                    `On a more personal note I made homemade ice cream using the "shake the Ball jar" method. Delicious!`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 12--8/30",
                 "subTitle": 'Getting ready hang out my "Open for Business" shingle.',
                 "paragraph": [
