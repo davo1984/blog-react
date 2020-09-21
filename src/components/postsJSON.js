@@ -15,6 +15,17 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 15",
+                "subTitle": "Gotta keep studying, PHP this time.",
+                "paragraph": [
+                    `Kenton County library sponsors the Gale courses. Bunch of subjects, but the computer and technology interests me. Included in the list of classes are JavaScript and PHP, both basic and intermediate. So I signed up for PHP intermediate.  Eight weeks, sixteen lessons, two a week, Wednesday & Friday. Included is an actual instructor to answer questions and grade the final. The course is pass/fail, with only the score on the "one shot" final exam determining the outcome. Assignments every class. In the end we will be building an online store. This is going to be fun.`,
+                    `I dabbled my foot into the COBOL waters. I was surprised at how much I actually enjoyed it. I think I'll devote an hour or two a day to doing a comprehensive tutorial I found. Maybe then code something like Will Crowther's "Colossal Cave Adventure" to show what I can do with it.`,
+                    ``,
+                    ``,
+                    ``
+                ]
+            },
+            {
                 "title": "Post-Camp Week 14",
                 "subTitle": "I need Oxygen",
                 "paragraph": [
