@@ -15,14 +15,21 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 16",
+                "subTitle": "Tools for Professionals",
+                "paragraph": [
+                    `Has it already been 4 months since the end of the Boot Camp? How time flies when you're looking for a job and growing skills.`,
+                    `I purchased OxygenBuilder and have been working tutorials. It is very powerful and will allow me to use my programing skills in PHP, JavaScript and CSS to their fullest. Plus it is going to be a whole lot faster and less error prone than coding it all by hand. But it is not a tool for beginners. It is designed, and marketed, to professional web developers.`,
+                    `Lots of work on UpWork. Many people want a bunch of work, or a miracle, for very little money. Well they will get what they pay for. Actually they will get a bit more because the platform is totally saturated. Too many hungry programmers looking for a start and needing a good review as much as a bit of cash. This will be a "hard row to hoe" as my Mom sometimes says. I believe that the opportunity is out there, but it will take a LOT of hard work.`,
+                    `My plan to break into the freelance market is to build some websites. I've got one I'd like to clone, just make it much faster than it is now. First I'll make a Loom video to show the current site, then clone it so I can show off a before and after version.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 15",
                 "subTitle": "Gotta keep studying, PHP this time.",
                 "paragraph": [
                     `Kenton County library sponsors the Gale courses. Bunch of subjects, but the computer and technology interests me. Included in the list of classes are JavaScript and PHP, both basic and intermediate. So I signed up for PHP intermediate.  Eight weeks, sixteen lessons, two a week, Wednesday & Friday. Included is an actual instructor to answer questions and grade the final. The course is pass/fail, with only the score on the "one shot" final exam determining the outcome. Assignments every class. In the end we will be building an online store. This is going to be fun.`,
-                    `I dabbled my foot into the COBOL waters. I was surprised at how much I actually enjoyed it. I think I'll devote an hour or two a day to doing a comprehensive tutorial I found. Maybe then code something like Will Crowther's "Colossal Cave Adventure" to show what I can do with it.`,
-                    ``,
-                    ``,
-                    ``
+                    `I dabbled my foot into the COBOL waters. I was surprised at how much I actually enjoyed it. I think I'll devote an hour or two a day to doing a comprehensive tutorial I found. Maybe then code something like Will Crowther's "Colossal Cave Adventure" to show what I can do with it.`
                 ]
             },
             {
