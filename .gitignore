@@ -42,3 +42,4 @@ scripts/*.json
 lib/
 dev/
 *.cache
+.firebase*cache

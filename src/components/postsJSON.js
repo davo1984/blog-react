@@ -15,6 +15,15 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 17",
+                "subTitle": "PHP studying",
+                "paragraph": [
+                    `I spent most of the week studying PHP. PHP seems to be at the center of most web development, Drupal, WordPress and small online retailers such as several Gun Shops that I'm aware of. I'm not really going much further in depth as I would like, but it is very important to not get rusty.`,
+                    `I purchased OxygenBuilder. I haven't spend as much time as I really need to in order to become well acquainted with it. Going to run through several tutorials then clone a couple of websites with it.`,
+                    `Meanwhile I've got to make contact with some of my group from the boot camp. I'm to the point where I need a bit more human interaction. Maybe on online happy hour, code a problem together or just see what everyone else is studying and working with.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 16",
                 "subTitle": "Tools for Professionals",
                 "paragraph": [
