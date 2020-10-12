@@ -15,12 +15,22 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 18",
+                "subTitle": "More of the Same",
+                "paragraph": [
+                    `More PHP, more job applications, more wondering if I am destroying my family financially. I remember my sister-in-law telling the story of some guy who got his doctorate at the age of 60. His dream was to break into academia. Well at 60 absolutely nobody would hire him. Is this me? I know I can do the work, but if nobody will hire me does that matter?`,
+                    `Still working on the PHP class. Gotta keep going forward so I don't slide backwards. Keep upgrading my skills so I can be ready to hit the ground running when I land a job.`,
+                    `Additional skills courses with the Kenton County Library system. Interview skills Tuesday morning and navigating the ATS -- Applicant Tracking System -- Thursday.`,
+                    `I've been riding my bicycle and meditating to keep my head on my shoulders straight and that seems to be working. As long as I see a forward path I'll be OK.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 17",
                 "subTitle": "PHP studying",
                 "paragraph": [
                     `I spent most of the week studying PHP. PHP seems to be at the center of most web development, Drupal, WordPress and small online retailers such as several Gun Shops that I'm aware of. I'm not really going much further in depth as I would like, but it is very important to not get rusty.`,
                     `I purchased OxygenBuilder. I haven't spend as much time as I really need to in order to become well acquainted with it. Going to run through several tutorials then clone a couple of websites with it.`,
-                    `Meanwhile I've got to make contact with some of my group from the boot camp. I'm to the point where I need a bit more human interaction. Maybe on online happy hour, code a problem together or just see what everyone else is studying and working with.`
+                    `Meanwhile I've got to make contact with some of my group from the boot camp. I'm to the point where I need a bit more human interaction. Maybe an online happy hour, code a problem together or just see what everyone else is studying and working with.`
                 ]
             },
             {
