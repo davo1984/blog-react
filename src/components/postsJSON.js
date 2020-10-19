@@ -15,6 +15,15 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 19",
+                "subTitle": "For the love of learning",
+                "paragraph": [
+                    `So here we are at the end/beginning of a brand new week. Sometimes I feel like I'm spinning my wheels. But other times I feel like I'm making progress. This was a week of finding errors. In my resume, in my web site, in my email address.`,
+                    `But now I get to correct them. I've finally got some great feedback on my resume, actionable things to rework. I need to set up a more professional looking email for myself on my domain. Part of my website got overwritten with Lorem Ipsum, but I forgot to recheck it so time to fix that. I'm going to nuke and pave. I need the practice in installing it from scratch anyway. Besides I was planning on redoing the site anyway.`,
+                    `I always feel better when I'm working on a plan, when I see a path forward. I spent most of the day working on things that should have been easier. But that is how one learns, and that is exactly what I love to do: learn.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 18",
                 "subTitle": "More of the Same",
                 "paragraph": [
