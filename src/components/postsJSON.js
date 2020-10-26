@@ -15,6 +15,16 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 20",
+                "subTitle": "Reworking My Self Presentation",
+                "paragraph": [
+                    `"How I perform my job search is a reflection on how I will perform my job." "You never get a second chance to make a first impression." These two truisms are what I have been working on this week. I've reworked my resume and had a new headshot taken for use as my LinkedIn photo. Same me, but a new look that represents me better.`,
+                    `I am trying to think a little creatively about my job search, looking outside of the usual tech companies, such as the advertising agency I applied to. I am also trying to think creatively about other aspects of my life, so I don't get so stuck in a rut that I don't see alternative life pathways that I wouldn't have considered otherwise.`,
+                    `_John Cleese_ wrote a great book, __"Creativity: A short & cheerful guide."__ This is a great book on how to become more creative. One third of the the book is distilling wisdom gleaned from _Guy Claxton's_ **"Hare Brain, Tortoise Mind,"** albeit in a greatly condensed and more readable format. The last bit is aimed at writers, but also has the most concentrated gems of distilled, quotable wisdom that can be acted upon in almost any area of one's life. Great book.`,
+                    `I borrowed it from my library, but that was a mistake. This is a book to own so I can highlight and put sticky notes in, making it easier find the genius bits easily later. Well worth a reread, which is unusual for such a short book.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 19",
                 "subTitle": "For the love of learning",
                 "paragraph": [

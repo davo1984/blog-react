@@ -4,10 +4,9 @@
 David O. Oliver
 
 ## About
-This is a learning project as well as how I'm going to display and edit my and my wife's blogs.
-This is the ReactJS based frontend for my blog.
+This is a learning project as well as how I'm going to display and edit my and my wife's blogs. This is the ReactJS based frontend for my blog.
 
-Currently the blog posts are stored in JSON strings, but soon they will be in a mysql DB, using Laravel for the backend. 
+Currently the blog posts are stored in JSON strings, but soon they will be in a mysql DB, using Laravel for the backend. Or maybe not. This is a LOT of work and the end result is expensive maintence and is harder to maintain than a WordPress blog and doesn't look as good either. As I said earlier, this is a learning project.
 
 Soon to be added is a page with all of my projects.
 

@@ -6,6 +6,7 @@ import {
 import SideMenu from './SideMenu';
 import postsJSON from './postsJSON';
 import BlogPost from './BlogPost';
+import ReactMarkdown from "react-markdown";
 // import Post from './Post';
 
 const Blog = (props) => {
@@ -39,7 +40,9 @@ const Blog = (props) => {
                                         <h6 className="card-subtitle mb-2 text-muted">{post.subTitle}</h6>
 
                                         {post.paragraph.length > 0 ? post.paragraph.map((paragraph, key) =>
-                                            <p className="card-text">{paragraph}</p>
+                                            // <p className="card-text">{paragraph}</p>
+                                            <p className="card-text">{<ReactMarkdown source={paragraph} />}</p>
+                                            // <ReactMarkdown source={paragraph} />
                                         ) : null}
 
                                     </div>
