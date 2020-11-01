@@ -15,6 +15,16 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week 21",
+                "subTitle": "Need to rework this blog",
+                "paragraph": [
+                    `I desperately need to rework this blog going forward. I would like to do some posts, tutorials and the like, which would show off how I know my chops and would help me to land a job. Or if I go freelance would give me some gravitas to attract clients.`,
+                    `Secondly I need to add some sample sites. Also get more practice with Oxygen Builder to be able to pop up sites quickly. I've got to figure out how to host multiple sub sites at a cheap price. I wonder if my hosting on google cloud can do it? Time to use Google. Fortunately I've always been good at coaxing the correct answers out of her.`,
+                    `On a more personal note I need to organize my time better. I'm building a schedule for my days. This is another way to prove that I can work remotely. I'm realizing that I need to get better at spreadsheets so I can create tables (like time blocks) so I can neatly and professionally format it. Time to hit the YouTube tutorials.`,
+                    `On a more personal note I need to get back into one of my creative hobbies. Drawing or playing guitar/harmonica. Problem with both of them is both frustration and for the longest time absolutely nothing has been any fun to do. Hard to motivate myself to do something for enjoyment when I don't actually get any enjoyment out of it. But I guess that the only way to get better is to pick one and add it to the schedule. Right now I feel guilty for not being "productive" with that time.  Time to get over that.`
+                ]
+            },
+            {
                 "title": "Post-Camp Week 20",
                 "subTitle": "Reworking My Self Presentation",
                 "paragraph": [
