@@ -15,6 +15,17 @@ const postsJSON = (props) => {
             //     ]
             // },
             {
+                "title": "Post-Camp Week ",
+                "subTitle": "",
+                "paragraph": [
+                    `Spent a couple of weeks prepping for job interviews. Now how did I do?`,
+                    ``,
+                    ``,
+                    ``,
+                    ``
+                ]
+            },
+            {
                 "title": "Post-Camp Week 24",
                 "subTitle": "Pause in Posting, not in Learning",
                 "paragraph": [

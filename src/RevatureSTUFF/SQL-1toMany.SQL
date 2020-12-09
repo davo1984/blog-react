@@ -14,3 +14,18 @@ CREATE TABLE IF NOT EXISTS pets (
         ON UPDATE CASCADE
         ON DELETE CASCADE
     )
+
+    CREATE TABLE IF NOT EXISTS classes (
+    classID SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    className VARCHAR(25),
+    shortName VARCHAR(25),
+    FOREIGN KEY (classID)
+    	REFERENCES students(ID)
+);
+    
+CREATE TABLE student_classes (
+	studentID SMALLINT,
+    classID SMALLINT,
+    FOREIGN KEY studentID REFERENCES students(ID),
+    FOREIGN KEY classID REFERENCES classes(classID)
+);
