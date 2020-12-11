@@ -18,9 +18,9 @@ const postsJSON = (props) => {
                 "title": "Post-Camp Week ",
                 "subTitle": "",
                 "paragraph": [
-                    `Spent a couple of weeks prepping for job interviews. Now how did I do?`,
-                    ``,
-                    ``,
+                    `Spent a couple of weeks prepping for job interviews. Well that was a waste of time.`,
+                    `I've got to start and code a complicated project in Javascript, HTML & CSS.`,
+                    `I've go to fight this depression before I kill myself. My yearly physical is next week.`,
                     ``,
                     ``
                 ]
